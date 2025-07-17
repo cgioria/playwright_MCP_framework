@@ -1,4 +1,3 @@
-k
 # Implementación del MCP (Modelo-Controlador-Presentación) en un flujo de login con Playwright y TypeScript
 
 Implementación del MCP (Modelo-Controlador-Presentación) en un flujo de login con Playwright y TypeScript
