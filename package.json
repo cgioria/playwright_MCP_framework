@@ -1,0 +1,25 @@
+{
+  "name": "playwright-mcp-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+  "test": "playwright test",
+  "test:headed": "playwright test --headed",
+  "test:chrome": "playwright test --project=chromium",
+  "test:firefox": "playwright test --project=firefox",
+  "test:webkit": "playwright test --project=webkit",
+  "test:debug": "playwright test --debug",
+  "test:report": "playwright test --reporter=html"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14",
+    "playwright": "^1.54.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
