@@ -20,3 +20,6 @@ Mantenibilidad: Los cambios en la UI solo afectan a la clase de página, no a lo
 Legibilidad: Los tests son más descriptivos y fáciles de entender
 
 Escalabilidad: Fácil de extender para nuevos flujos de autenticación
+
+
+npx playwright test src/tests/login.spec.ts  --debug
